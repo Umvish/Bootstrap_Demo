@@ -1,0 +1,19 @@
+header h1 {line-height:28px;}
+header nav a {background-color:black;}
+.navbar-expand-lg .navbar-nav .nav-link {padding:12px;}
+.navbar-dark .navbar-nav .nav-link:hover {color:orange;}
+a{text-decoration: none;}
+section .container > .row {padding:30px 0;}
+#list>h5{position: relative;}
+#list>h5::after{content:""; width: 100%; border-bottom: 1px dotted black;position: absolute; bottom: 0; left:0;}
+li{list-style: none;}
+#list ul li {border-bottom: 1px dashed black; padding: 5px 5px 5px 20px;}
+#list ul li>a{position: relative;}
+#list ul li>a::before{content:"";content: "\f0da";font-family: "Font Awesome 6 Pro";font-weight: 900;position: absolute;top: 0;left: -20px;}
+footer p>a{color: white;}
+.carousel-item img{width: 100%;height: 550px;}
+
+
+/* Bootstrap overwrite*/
+.text-warning {color:#FF9900 !important;}
+ul{padding-inline-start: 0px;}
